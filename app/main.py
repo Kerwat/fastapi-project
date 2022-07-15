@@ -28,4 +28,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():
-    return {"message": "This is my posting App"}
+    return {"message": "This is my posting App..."}
